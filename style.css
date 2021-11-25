@@ -452,15 +452,35 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d
+{
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
 
 button {
     outline: 0!important;
+}
+
+.explain {
+    font-size: 18px;
+    margin: auto;
+    width: 65%;
+}
+  
+.quote {
+    display: block;
+    margin: auto;
+    quotes: none;
+    font-size: 18px;
+    font-style: italic;
+    width: 85%;
+    color: #313030;
+}
+  
+cite {
+    font-style: normal;
+    font-size: initial;
 }
 
 .btn-rd {
@@ -771,7 +791,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fae3d6!important;
+    color: #f4c2a8!important;
 }
 
 .btn-atomic-tangerine {
